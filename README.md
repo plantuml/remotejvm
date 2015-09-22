@@ -1,12 +1,18 @@
 
 # Distribute a Java application over several JVMs
 
-This library will provide a simple way for distributing Java applications over several nodes.
+This library provides a simple way for distributing Java applications over several nodes.
 
-Each node must run a generic application-agnostic daemon (written itself in Java).
+Each node must run a generic application-agnostic daemon (written itself in Java). This daemon is launched by:
+```
+java -cp ant.jar:remotejvm.jar com.remotejvm.Node
+```
+
 The JVMs do not share their memory but they can communicate and exchange data.
 
-The Java application itself is automatically distributed to nodes.
+The Java application itself is automagically distributed to nodes.
+
+You can [consult the Javadoc online](http://plantuml.github.io/remotejvm/index.html). There are only three public classes to do all the job.
 
 ## Usage
 
@@ -49,4 +55,9 @@ Questions:
 1. Does it sound usefull to you ?
 
 2. Does something like this already exist ?
+
+### Notes about ANT
+
+ANT is only used to launch JVM : this is the best portable way to launch JVM from Java.
+
 
