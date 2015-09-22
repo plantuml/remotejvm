@@ -60,7 +60,7 @@ Just download both ``ant.jar`` and ``remotejvm.jar`` files. Depending on your sy
 
 You will see that computations is done in both JVM, but that results are printed in the second window.
 
-A folder named ``11001`` will be created : this is where classes are deserialized for the daemon (because in real world, ``run_node`` and ``run_demo`` should be launch on different machines.
+A folder named ``11001`` will be created : this is where classes are deserialized for the daemon (because in real world, ``run_node`` and ``run_demo`` should be launched on different machines.
 
 By the way, you can edit ``run_demo`` file and change the IP address ``127.0.0.1`` to a real IP of yours, and make a test on two differents machines.
 
