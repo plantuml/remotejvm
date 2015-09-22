@@ -50,12 +50,6 @@ public class Demo {
 In the current example, the call to the remote ``Worker`` is done synchronously.
 Using ``Future`` interface, we have ideas for providing asynchronous calls.
 
-Questions:
-
-1. Does it sound usefull to you ?
-
-2. Does something like this already exist ?
-
 ### Notes about ANT
 
 ANT is only used to launch JVM : this is the best portable way to launch JVM from Java.
