@@ -12,7 +12,7 @@ The JVMs do not share their memory but they can communicate and exchange data.
 
 The Java application itself is automagically distributed to nodes.
 
-You can [consult the Javadoc online](http://plantuml.github.io/remotejvm/index.html). There are only three public classes to do all the job.
+You can [browse the Javadoc online](http://plantuml.github.io/remotejvm/index.html). There are only three public classes to do all the job.
 
 ## Usage
 
