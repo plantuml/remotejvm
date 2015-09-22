@@ -62,6 +62,8 @@ You will see that computations is done in both JVM, but that results are printed
 
 A folder named ``11001`` will be created : this is where classes are deserialized for the daemon (because in real world, ``run_node`` and ``run_demo`` should be launch on different machines.
 
+By the way, you can edit ``run_demo`` file and change the IP address ``127.0.0.1`` to a real IP of yours, and make a test on two differents machines.
+
 ### Notes about ANT
 
 ANT is only used to launch JVM : this is the best portable way to launch JVM from Java.
