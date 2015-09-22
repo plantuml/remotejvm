@@ -50,6 +50,18 @@ public class Demo {
 In the current example, the call to the remote ``Worker`` is done synchronously.
 Using ``Future`` interface, we have ideas for providing asynchronous calls.
 
+## Test yourself!
+
+Just download both ``ant.jar`` and ``remotejvm.jar`` files. Depending on your system, download ``run_node.bat/.sh`` and ``run_demo.bat/.sh``
+
+1. Put all files in the same directory.
+2. Double-click or launch ``run_node`` : this will launch the daemon.
+3. Double-click or launch ``run_demo`` in another window : this will launch the Java code listed below.
+
+You will see that computations is done in both JVM, but that results are printed in the second window.
+
+A folder named ``11001`` will be created : this is where classes are deserialized for the daemon (because in real world, ``run_node`` and ``run_demo`` should be launch on different machines.
+
 ### Notes about ANT
 
 ANT is only used to launch JVM : this is the best portable way to launch JVM from Java.
